@@ -1,12 +1,12 @@
-package com.mealbox.paymentservice;
+package com.mealbox.payment;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class PaymentServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(PaymentServiceApplication.class, args);
     }
 }
